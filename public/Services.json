@@ -1,0 +1,83 @@
+[
+	{
+		"id": 101,
+		"title": "Public Speaking",
+		"img": "https://images.pexels.com/photos/1709003/pexels-photo-1709003.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+		"instructor": "Adam Marvel",
+		"teachingDay": "Sunday",
+		"teachingTime": "8.00 PM to 10.00 PM",
+		"level": "School/University/Collage"
+	},
+	{
+		"id": 102,
+		"title": "Powerful Presentation",
+		"img": "https://images.pexels.com/photos/6476186/pexels-photo-6476186.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+		"instructor": "Oden Marlo",
+		"teachingDay": "Monday",
+		"teachingTime": "8.00 PM to 10.00 PM",
+		"level": "University/Collage"
+	},
+	{
+		"id": 103,
+		"title": "Effective Communication",
+		"img": "https://images.pexels.com/photos/7516574/pexels-photo-7516574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+		"instructor": "George Harry",
+		"teachingDay": "Tuesday",
+		"teachingTime": "8.00 PM to 10.00 PM",
+		"level": "University/Collage"
+	},
+	{
+		"id": 104,
+		"title": "Academic Writing",
+		"img": "https://images.pexels.com/photos/210661/pexels-photo-210661.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+		"instructor": "Oliva Ella",
+		"teachingDay": "Sunday",
+		"teachingTime": "4.00 PM to 6.00 PM",
+		"level": "School/University/Collage"
+	},
+	{
+		"id": 105,
+		"title": "Mastering Grammar",
+		"img": "https://images.pexels.com/photos/6929205/pexels-photo-6929205.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+		"instructor": "William Charls",
+		"teachingDay": "Wednesday",
+		"teachingTime": "8.00 PM to 10.00 PM",
+		"level": "School/University/Collage"
+	},
+	{
+		"id": 106,
+		"title": "Mastering Vocabulary",
+		"img": "https://images.pexels.com/photos/159581/dictionary-reference-book-learning-meaning-159581.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+		"instructor": "Thomas Jems",
+		"teachingDay": "Thursday",
+		"teachingTime": "8.00 PM to 10.00 PM",
+		"level": "School/University/Collage"
+	},
+	{
+		"id": 107,
+		"title": "Understanding Literature",
+		"img": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+		"instructor": "Jack Jacob",
+		"teachingDay": "Monday",
+		"teachingTime": "4.00 PM to 6.00 PM",
+		"level": "University/Collage"
+	},
+	{
+		"id": 108,
+		"title": "Become an Artist",
+		"img": "https://images.pexels.com/photos/1340502/pexels-photo-1340502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+		"instructor": "Isabella Jerin",
+		"teachingDay": "Tuesday",
+		"teachingTime": "10.00 AM to 12.00 PM",
+		"level": "Any"
+	},
+	{
+		"id": 109,
+		"title": "Introduction to Linguistics",
+		"img": "https://images.pexels.com/photos/159844/cellular-education-classroom-159844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+		"instructor": "Jonny Bart",
+		"teachingDay": "Wednesday",
+		"teachingTime": "3.00 PM to 5.00 PM",
+		"level": "University/Collage"
+	}
+]
