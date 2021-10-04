@@ -3,7 +3,7 @@ import ShowServices from "../ShowServices/ShowServices";
 
 function Home(props) {
 	const { services } = props;
-	const topServices = services.slice(0, 3);
+	const topServices = services.slice(0, 3); // cutting data
 
 	return (
 		<div className="container my-4">

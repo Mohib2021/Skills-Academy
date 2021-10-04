@@ -1,4 +1,5 @@
 import React from "react";
+// importing and initializing AOS to apply animation
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init({
@@ -7,8 +8,10 @@ AOS.init({
 	duration: 1000,
 });
 function TopService(props) {
+	// destructuring data
 	const { title, img, instructor, level, teachingDay, teachingTime } =
 		props.service;
+	// declaring an object of style
 	const shadow = {
 		boxShadow: "7px 7px 10px black",
 	};

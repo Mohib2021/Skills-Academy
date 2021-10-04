@@ -1,5 +1,6 @@
 import React from "react";
 import ShowAboutUs from "../ShowAboutUs/ShowAboutUs";
+// importing and initializing AOS to apply animation
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init({
@@ -8,6 +9,7 @@ AOS.init({
 	duration: 1000,
 });
 function AboutUs() {
+	// declaring object of style
 	const shadow = {
 		boxShadow: "0px 0px 15px gray",
 	};

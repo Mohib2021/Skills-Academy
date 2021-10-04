@@ -1,4 +1,5 @@
 import React from "react";
+// importing and init AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init({
@@ -8,7 +9,7 @@ AOS.init({
 });
 function Contact(props) {
 	const { contact } = props;
-
+	// destructuring data
 	const { img, name, category, phone } = contact;
 	const shadow = {
 		boxShadow: "7px 7px 10px black",

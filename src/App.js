@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
+//importing bootstrap css and js
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
+// importing components
 import AboutUs from "./components/AboutUs/AboutUs";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
@@ -20,6 +21,7 @@ function App() {
 			.then((data) => setServices(data));
 	}, []);
 	return (
+		// setting router
 		<Router>
 			<Nav />
 			<Switch>
