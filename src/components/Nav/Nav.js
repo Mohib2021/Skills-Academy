@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 function Nav() {
+	const cap = <FontAwesomeIcon icon={faGraduationCap} />;
 	return (
 		<div className="sticky-top">
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 				<div className="container">
 					<Link to="/home" className="navbar-brand">
-						<h4>Skill's Academy</h4>
+						<h4> {cap} Skill's Academy</h4>
 					</Link>
 					<button
 						className="navbar-toggler"

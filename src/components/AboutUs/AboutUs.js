@@ -1,5 +1,11 @@
 import React from "react";
 import ShowAboutUs from "../ShowAboutUs/ShowAboutUs";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faHome,
+	faUserGraduate,
+	faUserTie,
+} from "@fortawesome/free-solid-svg-icons";
 // importing and initializing AOS to apply animation
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,12 +19,16 @@ function AboutUs() {
 	const shadow = {
 		boxShadow: "0px 0px 15px gray",
 	};
+	const academy = <FontAwesomeIcon icon={faHome} />;
+	const instructor = <FontAwesomeIcon icon={faUserTie} />;
+	const supporter = <FontAwesomeIcon icon={faUserGraduate} />;
 	return (
 		<div className="container my-4">
 			<div className="row g-4 text-center">
 				<ShowAboutUs>
 					<div data-aos="fade-right" style={shadow} className="p-2 rounded">
 						<div className="bg-dark text-white p-3 rounded">
+							<h2>{academy}</h2>
 							<h4>About Our Academy</h4>
 						</div>
 
@@ -47,6 +57,7 @@ function AboutUs() {
 				<ShowAboutUs>
 					<div data-aos="fade-up" style={shadow} className="p-2 rounded">
 						<div className="bg-dark text-white p-3 rounded">
+							<h2>{instructor}</h2>
 							<h4>About Our Instructor</h4>
 						</div>
 
@@ -75,6 +86,7 @@ function AboutUs() {
 				<ShowAboutUs>
 					<div data-aos="fade-left" style={shadow} className="p-2 rounded">
 						<div className="bg-dark text-white p-3 rounded">
+							<h2>{supporter}</h2>
 							<h4>About Our Supporter</h4>
 						</div>
 

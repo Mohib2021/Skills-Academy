@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 // importing and init AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -7,6 +9,7 @@ AOS.init({
 	delay: 0.5,
 	duration: 1000,
 });
+
 function Contact(props) {
 	const { contact } = props;
 	// destructuring data
@@ -14,6 +17,7 @@ function Contact(props) {
 	const shadow = {
 		boxShadow: "7px 7px 10px black",
 	};
+	const call = <FontAwesomeIcon icon={faPhoneVolume} />;
 	return (
 		<div className="col-md-4 col-sm-6 col-12">
 			<div
@@ -31,7 +35,8 @@ function Contact(props) {
 					<b>Category</b> : {category}
 				</p>
 				<p>
-					<b>Phone</b> : {phone}
+					<b>Phone</b> : {call}
+					{phone}
 				</p>
 			</div>
 		</div>
