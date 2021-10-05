@@ -1,4 +1,5 @@
 import React from "react";
+// importing font awesome icon
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 // importing and init AOS

@@ -1,4 +1,5 @@
 import React from "react";
+// importing font awesome icon
 import ShowAboutUs from "../ShowAboutUs/ShowAboutUs";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

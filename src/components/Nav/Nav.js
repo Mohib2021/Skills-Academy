@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// importing font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 function Nav() {
